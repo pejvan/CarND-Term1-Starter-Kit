@@ -35,7 +35,12 @@ Supported Systems : AWS (CPU, [GPU](doc/docker_for_aws.md)), Linux (CPU), Mac (C
 
 
 ## Build
-`docker build -t pejvan/term1starterkitcpu -f Dockerfile.cpu . ` 
+```
+$ docker build -t pejvan/term1starterkitcpu -f Dockerfile.cpu . 
+``` 
 
-
+## Choose your environment using the dedicated command
+```
+$ source activate carnd-term1
+```
 
